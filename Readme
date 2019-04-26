@@ -7,4 +7,4 @@ who are sometimes unable to speak the native language of the individual purchasi
 This model has been trained to identify the differences between just one of these pairs, to determine the min 
 labeled training set (~200 images) needed to function in a real world scenario. 
 
-To use, extra the compressed files, and master CSV, and upload to Google Cloud Vision Auto ML. 
+To use, extract the compressed files, and master CSV, and upload to Google Cloud Vision Auto ML. 
