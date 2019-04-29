@@ -1,8 +1,12 @@
-This is a sample transfer learning (ML) model designed to identify different types of produce, 
-that are visually similar but have different names. 
+This is a sample transfer learning (ML) model designed to identify different types of grocery produce 
+which are visually similar and have multiple, similar sounding names which are different. 
 
 For example, broccoli and chinese broccoli (Gai Lan). This is a confusing experience for checkout cashiers
 who are sometimes unable to speak the native language of the individual purchasing the produce. 
+- Individual: this is broccoli (it is called 'chinese broccoli' in ethnic cuisine)
+- Cashier or self-checkout register: this is not broccoli (looks similar, but looks closer to bok choy)
+- Bad outcome: rings up this produce as bok choy
+- Ideal outcome: vision model determines this is Gai Lan, or chinese broccoli
 
 This model has been trained to identify the differences between just one of these pairs, to determine the min 
 labeled training set (~200 images) needed to function in a real world scenario. 
